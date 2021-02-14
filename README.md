@@ -2,14 +2,8 @@
 
 ---
 
-**팀장 : `` `` ``**
+**팀장 : `` `` **
 
-
-<div align = "center">
-
-[Code Finder](https://hyun98.github.io/Project_AlgoStudy/)
-
-</div>
 
 ## 🎯 스터디 소개
 -   웹 개발과 백엔드에 대해 서로의 생각을 나누며 공부하기 위해서 개설되었습니다 ❗️
