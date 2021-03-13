@@ -1,0 +1,59 @@
+/* ---------------- Initialization ---------------- */
+*{
+    outline: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a, ul{
+    text-decoration: none; 
+    color: #000; 
+    list-style: none; 
+    margin: 0; 
+    padding: 0;
+}
+/* ------------------------------------------------ */
+
+header{
+    height: 80px;
+    box-shadow: 0px 3px 5px rgba(71, 71, 71, 0.287);
+}
+
+.logo{
+    position: relative;
+    display: block;
+
+    background: url('../img/logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    float: left;
+    margin: 17px 0px 17px 50px;
+    width: 40px;
+    height: 46px;
+}
+
+nav{
+    float: right;
+    margin: 0px 50px 0px 0px;
+}
+nav .nav--itm{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 10px 0px 20px;
+    line-height: 80px;
+}
+
+main{
+    min-height: 795px;
+    margin: 50px;
+}
+
+footer{
+    height: 100px;
+    box-shadow: 0px -3px 5px rgba(71, 71, 71, 0.171);
+}

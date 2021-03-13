@@ -1,0 +1,17 @@
+.textList__itm{
+    cursor: pointer;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgba(180, 180, 180, 0.521), 3px 3px 5px #fff;
+    margin: 0px 20px 0px 0px;
+    transition: .2s;
+}
+.textList__itm:hover{
+    box-shadow: 1px 1px 3px rgba(180, 180, 180, 0.521), 1px 1px 3px #fff;
+}
+.textList__itm:active{
+    box-shadow: inset 3px 3px 5px rgba(180, 180, 180, 0.521), inset 3px 3px 5px #fff;
+}
