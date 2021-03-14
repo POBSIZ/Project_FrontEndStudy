@@ -13,32 +13,43 @@
     <link rel="stylesheet" href="./static/css/layout.css"> 
     <link rel="stylesheet" href="./static/css/index.css">
 
-    <title>Main</title>
+    <title>HOME</title>
 </head>
 <body>
     <!-- HEADER -->
     <header class="header">
-        <a href="HOME">
+        <!-- LOGO -->
+        <a href="./index.html">
             <div class="logo"></div>
         </a>
+
+        <!-- NAV BAR -->
         <nav>
-            <a class="nav--itm" href="HOME">HOME</a>
-            <a class="nav--itm" href="PROFILE">PROFILE</a>
-            <a class="nav--itm" href="HOBBY">HOBBY</a>
+            <a class="nav--itm" href="./index.html">HOME</a>
+            <a class="nav--itm" href="./pages/profile.html">PROFILE</a>
+            <a class="nav--itm" href="./pages/hobby.html">HOBBY</a>
         </nav>
     </header>
     
     <!-- MAIN -->
-    <main class="main">
-        <div class="textList--wrapper">
-            <ul class="textList">
-                <li class="textList__itm"></li>
-                <li class="textList__itm"></li>
-                <li class="textList__itm"></li>
-            </ul>
-        </div>
-    </main>
+    <div class="container">
 
+        <!-- BANNER -->
+        <div class="banner__img">
+            <div class="banner__img--text">
+                Hello My Name is Won <br>
+                <span class="banner__img--text_info">
+                    This is My Self Introduce Site
+                </span>
+            </div>
+        </div>
+
+        <!-- MAIN CONTENT -->
+        <main class="main">
+        </main>
+    </div>
+
+    <!-- FOOTER -->
     <footer class="footer">
     </footer>
 </body>
